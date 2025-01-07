@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Next.js
+.next/
+out/
+
+# Fichiers du système
+.DS_Store
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
