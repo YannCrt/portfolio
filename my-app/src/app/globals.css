@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --foreground: #171717;
+  --background: #f5f5f5;
+  --primary-color: #3498db;
+  --secondary-color: #e74c3c;
+  --footer-bg: #2c3e50;
+  --footer-text: #ecf0f1;
+  --navbar-bg: #ffffff;
+  --hover-color: #e67e22;
+}
+
+:root {
+  --foreground: #171717;
+  --background: #f5f5f5;
+  --primary-color: #3498db;
+  --secondary-color: #e74c3c;
+  --footer-bg: #2c3e50;
+  --footer-text: #ffffff;
+  --navbar-bg: #ffffff;
+  --hover-color: #e67e22;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --primary-color: #2980b9;
+  --secondary-color: #d35400;
+  --footer-bg: #34495e;
+  --footer-text: #000000;
+  --navbar-bg: #171717;
+  --hover-color: #f39c12;
+}
+
+.light {
+  --background: #f5f5f5;
+  --foreground: #171717;
+  --primary-color: #3498db;
+  --secondary-color: #e74c3c;
+  --footer-bg: #2c3e50;
+  --footer-text: #ecf0f1;
+  --navbar-bg: #ffffff;
+  --hover-color: #e67e22;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.home {
+  display: flex;
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-direction: column;
+}
+
+.img {
+  width: 4rem;
+  height: 4rem;
+  justify-content: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------- NAVBAR ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  background-color: var(--footer-bg);
+}
+
+.navbar:first-child {
+  padding-left: 3rem;
+}
+
+li {
+  display: inline-block;
+  margin: 2rem;
+  font-weight: 700;
+}
+
+.navbar ul li a:hover {
+  color: var(--hover-color);
+}
+
+.navbar a {
+  color: var(--footer-text);
+  text-transform: uppercase;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------- PROJETS ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.projects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 30rem 0rem;
+  padding-top: 1rem;
+  padding-bottom: 15rem;
+  width: 80rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 10rem;
+}
+.project p {
+  margin-bottom: 1rem;
+}
+
+.project img {
+  border-radius: 5px;
+  height: 350px;
+  width: 700px;
+  object-fit: cover;
+}
+
+.container-project {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------- THEME ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.theme-toggle {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.dark .theme-toggle {
+  background-color: var(--background);
+  border: var(--background);
+}
+.light .theme-toggle {
+  background-color: var(--background);
+  border: var(--background);
+}
+
+.dark .theme-toggle svg {
+  fill: var(--foreground);
+}
+.light .theme-toggle svg {
+  fill: var(--foreground);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------- IMAGE ----------------------------------------------------------------------------------------------------------------------------------*/
+.image-link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.image-link:hover img {
+  transform: scale(1.1);
+}
+
+.image-link:hover img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------- FOOTER ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+  width: 100%;
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  color: var(--footer-text);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.social-link:hover {
+  color: var(--secondary-color);
+}
+
+.e4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+}
+
+.e4-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.e4-rapport {
+  display: flex;
+  gap: 7rem;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.e4-a {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------- Page Project ----------------------------------------------------------------------------------------------------------------------------------*/
+
+.page-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25rem;
+  gap: 1rem;
+}
+
+.page-veille {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem;
+  gap: 1rem;
+}
