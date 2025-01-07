@@ -1,11 +1,10 @@
-"use client"; // Directive pour indiquer que ce fichier est un composant client
+"use client";
 
 import React, { useState, useEffect } from "react";
 
 function Navbar() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Charger le mode depuis le localStorage ou la préférence système
   useEffect(() => {
     const savedMode = localStorage.getItem("darkMode");
     if (savedMode === "true") {
