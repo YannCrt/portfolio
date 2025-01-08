@@ -98,7 +98,7 @@ li {
 }
 
 .navbar a {
-  color: var(--footer-text);
+  color: white;
   text-transform: uppercase;
 }
 

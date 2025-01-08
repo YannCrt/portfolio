@@ -12,7 +12,7 @@ export default function Home() {
         <h3>PROJETS :</h3>
         <div className="container-project">
           <div className="project">
-            <h1>Excercice Frontend</h1>
+            <h1>Exercice Frontend</h1>
             <p>Avec Next</p>
             <a href="/projects/project1" className="image-link">
               <Image src={project1} alt="Retro Project" />
