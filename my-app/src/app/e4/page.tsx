@@ -41,12 +41,12 @@ function Page() {
         <div className="e4-a">
           <h4>Télécharger le Tableau de Compétences</h4>
           <p>Pdf vide pour le moment.</p>
-          <a href="download/tableau.pdf" download="Tableau_Cretin_Yann.pdf">
+          <a href="download/tableau.pdf" download="Tableau_Synthèse_E4_Cretin_Yann.pdf">
             <Image
               src={tableau}
               alt="Télécharger Tableau de Compétences"
               width={700}
-              height={700}
+              height={900}
             />
           </a>
         </div>

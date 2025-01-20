@@ -40,6 +40,9 @@ function Navbar() {
             <a href="/">Presentation</a>
           </li>
           <li>
+            <a href="/bts">BTS</a>
+          </li>
+          <li>
             <a href="/e4">E4</a>
           </li>
           <li>
