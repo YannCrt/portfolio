@@ -73,6 +73,10 @@ body {
   justify-content: center;
 }
 
+a {
+  color: var(--foreground);
+}
+
 /*----------------------------------------------------------------------------------------------------------------------------------- NAVBAR ----------------------------------------------------------------------------------------------------------------------------------*/
 
 .navbar {
@@ -289,6 +293,153 @@ button {
   align-items: center;
   margin: 15rem;
   gap: 1rem;
+}
+
+source {
+  display: flex;
+}
+
+#source-h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.link-source {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.introduction-content {
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 4rem;
+  gap: 15rem;
+}
+
+.introduction-corps {
+  width: 30rem;
+  border: 2px solid var(--footer-bg);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.development {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+
+.veille-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+
+.veille-1-content {
+  display: flex;
+  flex-direction: flex;
+  gap: 4rem;
+  padding: 2rem;
+  border: solid 2px var(--footer-bg);
+  border-radius: 5px;
+  margin-top: 4rem;
+  width: 100rem;
+}
+
+.veille-1-image {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-top: 10rem;
+  gap: 12rem;
+}
+
+.veille-1-model {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem;
+  gap: 5rem;
+}
+
+.veille-1-model-content {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.veille-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 3px;
+  padding-bottom: 1rem;
+  margin: 3rem;
+  width: 100rem;
+}
+
+.veille-2-content {
+  margin: 2rem;
+  margin-bottom: 0;
+}
+
+.veille-2-content li {
+  font-weight: 400;
+}
+
+.veille-2-content-item {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.veille-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  gap: 3px;
+  padding-bottom: 1rem;
+
+  width: 100rem;
+}
+
+.veille-3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 4rem;
+  border: solid 2px var(--footer-bg);
+  border-radius: 5px;
+  margin-top: 4rem;
+  max-width: 50rem;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------- BTS  ----------------------------------------------------------------------------------------------------------------------------------*/
