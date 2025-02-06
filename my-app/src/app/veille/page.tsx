@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import cluster from "../../../public/assets/cluster.png"
-import sql from "../../../public/assets/sql.png"
-import modelnosql from "../../../public/assets/modelenosql.png"
-import model1 from "../../../public/assets/model1.png"
-import model2 from "../../../public/assets/model2.png"
+import ransomhub from "../../../public/assets/ransomHub.jpg"
+import modelnosql from "../../../public/assets/lockbit.png"
+import model1 from "../../../public/assets/Akira.png"
+import model2 from "../../../public/assets/darkgate.jpg"
 import model3 from "../../../public/assets/model3.png"
 import model4 from "../../../public/assets/model4.png"
 
@@ -12,24 +12,14 @@ import model4 from "../../../public/assets/model4.png"
 function page() {
   return (
     <div className="page-veille">
-      <h2>Les bases de données NoSQL dans les applications modernes</h2>
+      <h2>Comment les techniques d’attaques ont-elles évolué ? </h2>
 
       <div className="introduction">
         <h3>Introduction</h3>
         <div className="introduction-content">
           <div className="introduction-corps">
             <p>
-              Dans le monde des bases de données modernes, la question de
-              choisir entre SQL et NoSQL se pose fréquemment. Alors que les
-              bases de données relationnelles (SQL) ont été la norme pendant
-              des décennies, les bases de données NoSQL ont gagné en
-              popularité ces dernières années, surtout avec l'avènement des
-              applications web et mobiles à grande échelle. Le but de cette
-              veille est de comprendre les différences fondamentales entre ces
-              deux types de bases de données, de mettre en lumière les
-              avantages spécifiques de NoSQL dans les applications modernes et
-              de donner un aperçu de leur utilisation au sein des entreprises
-              actuelles.
+              Au fil des décennies, les techniques d'attaques informatiques ont considérablement évolué, passant des premiers virus rudimentaires aux menaces sophistiquées actuelles telles que les ransomwares à double ou triple extorsion. Les cybercriminels exploitent désormais des vulnérabilités variées, combinant failles logicielles et ingénierie sociale, ce qui souligne l'importance cruciale de la cybersécurité pour protéger les systèmes et les données sensibles.
             </p>
           </div>
         </div>
@@ -38,30 +28,18 @@ function page() {
       <div className="development">
         <h3>Développement</h3>
         <div className="veille-1">
-          <h4>1. Définition des bases de données NoSQL</h4>
-          <div className="veille-1-content">
-            <p>
-              L'article d'OVH Cloud nous explique clairement les différences
-              entre les bases de données SQL et NoSQL. Alors que les bases SQL
-              utilisent des tables pour organiser les données de manière
-              relationnelle (par exemple, MySQL, PostgreSQL), les bases NoSQL,
-              comme MongoDB ou Cassandra, permettent une approche plus flexible.
-              Elles ne nécessitent pas de schéma prédéfini et sont souvent
-              utilisées pour des <strong>données non structurées, semi-structurées ou massivement volumineuses.</strong>
-            </p>
-            <p>
-              Les bases de données NoSQL sont particulièrement adaptées aux
-              applications modernes qui traitent des <strong>données en temps réel</strong>
-              ou des <strong>données complexes</strong>, comme les réseaux sociaux,
-              l’Internet des objets (IoT), ou les applications mobiles. Cette
-              flexibilité leur permet de mieux gérer des volumes de données en
-              forte croissance et de s'adapter rapidement aux évolutions du
-              schéma des données.
-            </p>
+          <h4>1. Les Malwares les plus utilisés en 2024</h4>
+          <div className="introduction-content">
+            <div className="introduction-corps">
+              <p>
+                En 2024, plusieurs malwares ont marqué le paysage de la cybersécurité par leur sophistication et leur impact significatif :
+              </p>
+            </div>
           </div>
+          <h4>Exemple de Malware récent : </h4>
           <div className="veille-1-image">
             <Image
-              src={sql}
+              src={ransomhub}
               alt="image-nosql"
               width={500}
               height={350}
@@ -189,8 +167,8 @@ function page() {
       <div className="source">
         <h4 id="source-h4">Source</h4>
         <div className="link-source">
-          <a href="https://www.oracle.com/fr/database/nosql/technologies/nosql/">
-            https://www.oracle.com/fr/database/nosql/technologies/nosql/
+          <a href="https://www.checkpoint.com/fr/cyber-hub/threat-prevention/ransomware/what-is-ransomhub-ransomware/">
+            https://www.checkpoint.com/fr/cyber-hub/threat-prevention/ransomware/what-is-ransomhub-ransomware/
           </a>
           <a href="https://oracle.com/fr/database/nosql/">
             https://oracle.com/fr/database/nosql/
@@ -203,6 +181,9 @@ function page() {
           </a>
           <a href="https://youtu.be/2rkvCnZVsow?si=sJ8DXGtxdwU5XOPf">
             https://youtu.be/2rkvCnZVsow?si=sJ8DXGtxdwU5XOPf
+          </a>
+          <a href="https://www.clubic.com/antivirus-securite-informatique/virus-hacker-piratage/malware-logiciel-malveillant/actualite-464376-rorschach-attention-a-ce-nouveau-ransomware-chiffre-vos-donnees-plus-vite-qu-aucun-autre.html">
+            https://www.clubic.com/antivirus-securite-informatique/virus-hacker-piratage/malware-logiciel-malveillant/actualite-464376-rorschach-attention-a-ce-nouveau-ransomware-chiffre-vos-donnees-plus-vite-qu-aucun-autre.html
           </a>
         </div>
       </div>
